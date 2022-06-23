@@ -9,9 +9,8 @@ namespace NewsService.Data
         {
 
         }
-
         public DbSet<News> News { get; set; }
-        public DbSet<NewsCategory> NewsCategories { get; set; }
+        public DbSet<NewsCategory> NewsCategory { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
